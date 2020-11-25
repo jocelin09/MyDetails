@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/personalFragment">
+
+    <fragment
+        android:id="@+id/personalFragment"
+        android:name="com.example.mydetails.fragments.Personal_Info_Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/personal_info_frag">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/employeeFragment" />
+
+        <argument android:name="f_name"
+            app:argType="string"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/employeeFragment"
+        android:name="com.example.mydetails.fragments.Employee_Info_Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/employee_info_frag">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_ThirdFrgment"
+            app:destination="@id/bankFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bankFragment"
+        android:name="com.example.mydetails.fragments.Bank_Info_Fragment"
+        android:label="@string/third_fragment_label"
+        tools:layout="@layout/bank_info_frag">
+
+        <!-- <activity
+             android:id="@+id/mainActivty"
+             android:name="com.example.mydetails.HomePage" />-->
+
+    </fragment>
+
+</navigation>

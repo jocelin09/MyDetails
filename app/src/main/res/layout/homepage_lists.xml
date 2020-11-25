@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_profilepic"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_person_24"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:text="Jocelin Thomas"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/designation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Android Developer"
+            android:padding="5dp"
+            android:textSize="15sp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+

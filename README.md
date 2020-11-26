@@ -1,10 +1,12 @@
 # Recyclerview_SQLite_CRUD
 Populating Recyclerview with data from SQLite DB and performing CRUD operations.
 
+
 #### <b> Technologies used: </b> 
-- Material Design 
-- Architectural Component - Navigation
-- Data Binding
+- Material Design
+- Fragments
+- Architectural Component - Navigation Component
+- Architectural Component - Data Binding
 
 
 #### <b> Attaching screenshot: </b> 

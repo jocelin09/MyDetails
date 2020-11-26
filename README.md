@@ -1,5 +1,5 @@
 # MyDetails
-A sample project that shows the implementation of CRUD Operation using SQLite db and display the data in Recyclerview.
+Populating Recyclerview with data from SQLite DB and performing CRUD operations.
 
 #### <b> Technologies used: </b> 
 - Material Design 

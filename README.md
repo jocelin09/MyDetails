@@ -1,4 +1,4 @@
-# MyDetails
+# Recyclerview_SQLite_CRUD
 Populating Recyclerview with data from SQLite DB and performing CRUD operations.
 
 #### <b> Technologies used: </b> 
